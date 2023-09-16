@@ -1,4 +1,4 @@
-from random import randint
+п»їfrom random import randint
 
 def find_indexes(list, min_value, max_value):
     indexes = []
@@ -12,20 +12,20 @@ def arithmetic_progression(element, difference, n):
     return progression
 
 
-#Задача 30
+#Р—Р°РґР°С‡Р° 30
 
-element = int(input("Введите первый элемент прогрессии: "))
-difference = int(input("Введите разность прогрессии: "))
-n = int(input("Введите количество элементов: "))
+element = int(input("Р’РІРµРґРёС‚Рµ РїРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РїСЂРѕРіСЂРµСЃСЃРёРё: "))
+difference = int(input("Р’РІРµРґРёС‚Рµ СЂР°Р·РЅРѕСЃС‚СЊ РїСЂРѕРіСЂРµСЃСЃРёРё: "))
+n = int(input("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ: "))
 
 some_progression = arithmetic_progression(element, difference, n)
 print(some_progression)
 
-#Задача 32
+#Р—Р°РґР°С‡Р° 32
 
 list = [randint(-100, 100) for _ in range(10)]
 
-# Заданный диапазон
+#Р”РёР°РїР°Р·РѕРЅ
 min_value = 33
 max_value = 200
 
